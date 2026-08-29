@@ -2,18 +2,12 @@ name = "naijadoge-platform"
 compatibility_date = "2024-09-23"
 pages_build_output_dir = "dist"
 
-[vars]
+# HTTP Security Headers & Production Environment Variables
+[env.production.vars]
 ENVIRONMENT = "production"
 PLATFORM_NAME = "Naijadoge Global"
 RC_NUMBER = "RC 9075257"
 WHATSAPP_HOTLINE = "+22897317115"
 SUPPORT_EMAIL = "info@naijadoge.com"
-
-[[routes]]
-pattern = "naijadoge.com/*"
-zone_name = "naijadoge.com"
-
-# HTTP Security Headers
-[env.production.vars]
 ENABLE_STRICT_CSP = "true"
 ENABLE_TURNSTILE = "true"
