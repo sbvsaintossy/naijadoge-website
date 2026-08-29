@@ -1,0 +1,7 @@
+{
+  "name": "Naijadoge",
+  "description": "Africa's most trusted livestreaming and creator growth platform with enterprise financial rails and creator agency infrastructure.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
